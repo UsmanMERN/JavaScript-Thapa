@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in Javascript</title>
+    <style>
+        body{
+            background-color: violet;
+           text-align: center;
+
+        }
+        button{
+            box-sizing: border-box;
+            height: 50px;
+            width: 150px;
+            padding: 10px;
+            margin: 70px 0px;
+            background-color: tomato;
+            color: white;
+            box-shadow: 5px 5px 5px black;
+            display: block;
+            cursor: pointer;
+        }
+        .btn{
+justify-content: center;
+display: flex;
+align-items: center;
+flex-direction: column;
+        }
+        #box{
+            height: 150px;
+            width: 150px;
+            color: aquamarine;
+            padding: 10px;
+            margin: 70px 0px;
+            background-color: tomato;
+            color: white;
+            box-shadow: 5px 5px 5px black;
+            display: block;
+            cursor: pointer;
+        }
+        input{
+            height: 50px;
+            width: 150px;
+            background-color: #fff;
+            box-shadow: 5px 5px 5px black;
+            cursor: pointer;
+        }
+        label{
+            color: #fff;
+        }
+        .label{
+            margin-top:90px; ;
+        }
+#selectBox{
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+            cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <h1>Events in Javascript</h1>
+
+<div class="btn">
+
+    <!-- ways of events  -->
+    <!-- <button onclick="alert('Hi! I am Usman Whatever Am I')">Using Alert</button>
+<button onclick="call()">Simple Callig Function</button>
+<button id="event">Add Event Listner</button>
+<button id="event1">Inline Event</button> -->
+
+<!-- mouse event
+<button id="event">Add Event Listner</button> -->
+
+<!-- Mouse Event -->
+<!-- <p id="myP" onmousedown="mDown()" onmouseup="mUp()"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur ad nemo iste molestias quaerat quibusdam corporis, non similique, necessitatibus modi voluptate. Nobis, perspiciatis reiciendis corrupti fugit laborum neque incidunt repudiandae.</p>
+</div> -->
+<!-- <button id="click">Click Me</button> -->
+
+<!-- box  -->
+<!-- <div id="box"></div> -->
+
+
+
+<!-- keyboed Events -->
+<!-- <p>Hi! HERE I AM PRESSING DIFFERENT BUTTONS</p>
+<br>
+<input type="text" onkeypress="keypress()" onkeydown="kDown()" onkeyup="kUp()">
+<br>
+<p id="myText"></p> -->
+
+
+<form action="">
+    <label for="" >Name:
+    <input type="text" id="name">
+</label>
+<br>
+<div class="label">
+    <label id="Select" onchange="slectBtn()" for="">Select your Favorite One
+        <select name="" id="selectBox">
+        <option value="">Select One ...</option>
+        <option value="Choclate">Choclate</option>
+        <option value="Vanilla">Vanilla</option>
+        <option value="Sardine">Sardine</option>
+</div>
+
+</select>
+</label>
+</form>
+<p id="output"></p>
+
+
+    <script src="./script/EventsinjavaScript.js"></script>
+</body>
+</html>
